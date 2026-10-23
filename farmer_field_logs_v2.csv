@@ -1,0 +1,5 @@
+﻿Timestamp,FarmerName,Mobile,Village,SubPlotID,Present_Crop,Seed_Variety,DAS,Growth_Stage,Category,Input_Qty,Amount_INR,CropCondition,Notes
+2026-10-10 09:00,Baseline,-,All 4 Villages,ALL,Mustard,Pioneer 45S46,0,Pre-Sowing,Land Preparation,Cultivator & Leveling,20000.0,Normal / स्वस्थ,Land prep across 34 KB
+2026-10-12 11:30,Baseline,-,All 4 Villages,ALL,Mustard,Pioneer 45S46,0,Pre-Sowing,Fertiliser Procurement,Basal NPK & S,21480.0,Normal / स्वस्थ,Basal fertilizer stock
+2026-10-14 08:15,Baseline,-,All 4 Villages,ALL,Mustard,Pioneer 45S46,0,Sowing,Seeds,Certified Seed,1500.0,Normal / स्वस्थ,Mustard seed procurement
+2026-10-15 16:00,Baseline,-,All 4 Villages,ALL,Mustard,Pioneer 45S46,1,Germination,Basal Application + Seeding,Seeding Drill,5460.0,Normal / स्वस्थ,Seeding completed
