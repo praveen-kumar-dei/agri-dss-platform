@@ -40,11 +40,10 @@ CROP_PRICING = {
     "Paddy / Rice (धान)": {"msp": 2300, "glut": 2150, "smart": 2550}
 }
 
-# Crop Specific Chronological Schedules (Days After Sowing milestones & advisories)
 CROP_SCHEDULES = {
     "Mustard (सरसों)": [
         {"days": "0 - 10 दिन", "stage": "अंकुरण (Germination)", "task": "बीज अंकुरण की सघनता जांचें। प्रति वर्ग मीटर 45-60 पौधे होने चाहिए।"},
-        {"days": "20 - 25 दिन", "stage": "निराई-गुड़ाई (Weeding & Thinning)", "task": "घने पौधों को हटाएं (Thining) और पहली निराई करें।"},
+        {"days": "20 - 25 दिन", "stage": "निराई-गुड़ाई (Weeding & Thinning)", "task": "घने पौधों को हटाएं और पहली निराई करें।"},
         {"days": "30 - 35 दिन", "stage": "प्रथम सिंचाई व यूरिया (1st Irrigation & Urea)", "task": "हल्की सिंचाई करें। सिंचाई से ठीक पहले अनुशंसित यूरिया की आधी मात्रा दें।"},
         {"days": "45 - 55 दिन", "stage": "फूलत अवस्था (Flowering & Boron Spray)", "task": "फूल आने से ठीक पहले बोरॉन 20% (1.5 ग्राम/लीटर) का पर्ण स्प्रे करें। माहू (Aphid) कीट की निगरानी करें।"},
         {"days": "70 - 80 दिन", "stage": "फली भराव (Pod Filling)", "task": "दूसरी हल्की सिंचाई करें ताकि दाने भरते समय नमी बनी रहे।"},
@@ -52,25 +51,24 @@ CROP_SCHEDULES = {
     ],
     "Wheat (गेहूँ)": [
         {"days": "0 - 10 दिन", "stage": "अंकुरण (Germination)", "task": "उचित नमी पर बुवाई सुनिश्चित करें। अंकुरण की निगरानी करें।"},
-        {"days": "20 - 25 दिन", "stage": "ताज मूल अवस्था (CRI Stage - Most Crucial)", "task": "पहली सिंचाई सीआरआई अवस्था पर अत्यंत आवश्यक है। इसके साथ नत्रता (यूरिया) दें।"},
-        {"days": "40 - 45 दिन", "stage": "कले फूटना (Tillering)", "task": "दूसरी सिंचाई और खरपतवार नियंत्रण (चौड़ी पत्ती के खरपतवार नाशक का प्रयोग)।"},
+        {"days": "20 - 25 दिन", "stage": "ताज मूल अवस्था (CRI Stage)", "task": "पहली सिंचाई सीआरआई अवस्था पर अत्यंत आवश्यक है। इसके साथ नत्रता (यूरिया) दें।"},
+        {"days": "40 - 45 दिन", "stage": "कले फूटना (Tillering)", "task": "दूसरी सिंचाई और खरपतवार नियंत्रण करें।"},
         {"days": "60 - 65 दिन", "stage": "गाँठ बन्ना व बालियाँ (Jointing & Heading)", "task": "तीसरी सिंचाई दें। नाइट्रोजन की शेष मात्रा का प्रयोग करें।"},
         {"days": "85 - 90 दिन", "stage": "दुग्धावस्था (Milking Stage)", "task": "चौथी सिंचाई। पीला रतुआ (Yellow Rust) रोग की जाँच करें।"},
         {"days": "120 - 130 दिन", "stage": "परिपक्वता (Harvesting)", "task": "दाने सख्त होने पर कटाई करें।"}
     ],
     "Potato (आलू)": [
         {"days": "0 - 15 दिन", "stage": "अंकुरण (Emergence)", "task": "कंदों का अंकुरण शुरू होता है। खेत में जलभराव न होने दें।"},
-        {"days": "25 - 30 दिन", "stage": "मिट्टी चढ़ाना व पहली यूरिया (Earthing up)", "task": "पहली निराई-गुड़ाई करके पौधों पर मिट्टी चढ़ाएं (Earthing-up) और यूरिया दें।"},
-        {"days": "45 - 50 दिन", "stage": "कंद विकास (Tuber Bulking & 2nd Earthing)", "task": "दूसरी बार मिट्टी चढ़ाना, नियमित अंतराल पर सिंचाई करना। पिछेती झुलसा (Late Blight) पर नजर रखें।"},
+        {"days": "25 - 30 दिन", "stage": "मिट्टी चढ़ाना व पहली यूरिया (Earthing up)", "task": "पहली निराई-गुड़ाई करके पौधों पर मिट्टी चढ़ाएं और यूरिया दें।"},
+        {"days": "45 - 50 दिन", "stage": "कंद विकास (Tuber Bulking)", "task": "दूसरी बार मिट्टी चढ़ाना, नियमित अंतराल पर सिंचाई करना। पिछेती झुलसा (Late Blight) पर नजर रखें।"},
         {"days": "75 - 90 दिन", "stage": "कन्द परिपक्वता (Maturity)", "task": "सिंचाई बंद कर दें ताकि छिलका सख्त हो जाए।"},
-        {"days": "100 - 110 दिन", "stage": "बेल सुखाई व खदाई (Haulm Pulling & Digging)", "task": "खोदाई से 10 दिन पहले बेल काट दें।"}
+        {"days": "100 - 110 दिन", "stage": "बेल सुखाई व खदाई (Digging)", "task": "खोदाई से 10 दिन पहले बेल काट दें।"}
     ]
 }
 
 def init_databases():
     if not os.path.exists(LOGS_CSV):
-        init_logs = [{"Timestamp": "2026-10-10 09:00", "FarmerName": "Baseline", "Mobile": "-", "Village": "All", "SubPlotID": "ALL", "Present_Crop": "Mustard", "Seed_Variety": "Standard", "DAS": 0, "Growth_Stage": "Pre-Sowing", "Category": "Land Prep", "Input_Qty": "1", "Amount_INR": 20000.0, "CropCondition": "Healthy", "Notes": "Baseline"}]
-        pd.DataFrame(init_logs).to_csv(LOGS_CSV, index=False, encoding='utf-8-sig')
+        pd.DataFrame([{"Timestamp": "2026-10-10 09:00", "FarmerName": "Baseline", "Mobile": "-", "Village": "All", "SubPlotID": "ALL", "Present_Crop": "Mustard", "Seed_Variety": "Standard", "DAS": 0, "Growth_Stage": "Pre-Sowing", "Category": "Land Prep", "Input_Qty": "1", "Amount_INR": 20000.0, "CropCondition": "Healthy", "Notes": "Baseline"}]).to_csv(LOGS_CSV, index=False, encoding='utf-8-sig')
 
 init_databases()
 df = pd.read_csv(MASTER_CSV)
@@ -128,7 +126,7 @@ df['Net_Profit_Smart_INR'] = df['Rev_SmartMarket_INR'] - df['Total_CoP_INR']
 
 if app_mode == "📱 किसान मोबाइल ऐप (Farmer Easy Mode)":
     st.title("🌾 किसान मित्र (Farmer Support App)")
-    st.caption("स्मार्ट निर्णय सहायता प्रणाली - फसल विशिष्ट बाज़ार मूल्य और विस्तृत समय-सारणी (Crop Schedule)")
+    st.caption("स्मार्ट निर्णय सहायता प्रणाली - पूर्ण कृषि सलाह एवं समय-सारणी")
 
     if "logged_in_mobile" not in st.session_state:
         st.session_state.logged_in_mobile = None
@@ -191,7 +189,7 @@ if app_mode == "📱 किसान मोबाइल ऐप (Farmer Easy Mode
             st.session_state.logged_in_mobile = None
             st.rerun()
 
-    m_tab1, m_tab2 = st.tabs(["📱 1. मेरी खेत सलाह, मूल्य व फसल शेड्यूल (Plot, Pricing & Schedule)", "📸 2. सिंचाई व खर्च दर्ज करें (Log Event)"])
+    m_tab1, m_tab2 = st.tabs(["📱 1. मेरी खेत सलाह, मौसम व समय-सारणी (My Plot Advisory & Schedule)", "📸 2. पौधों की गिनती व खर्च (Stand Count & Log)"])
 
     with m_tab1:
         sel_sub = st.selectbox("📍 अपना खेत / सब-प्लॉट चुनें:", farmer_df['SubPlotID'].unique())
@@ -199,12 +197,11 @@ if app_mode == "📱 किसान मोबाइल ऐप (Farmer Easy Mode
         wx = fetch_live_weather(float(r['Latitude']), float(r['Longitude']))
         crop_name = r['Present_Crop']
 
-        # Calculate Days After Sowing (DAS)
         try:
             sowing_dt = datetime.strptime(str(r['Sowing_Date']).split()[0], "%Y-%m-%d")
             das = (datetime.now() - sowing_dt).days
         except Exception:
-            das = 30  # Default assumption
+            das = 12
 
         st.markdown(f"#### 🌾 चयनित फसल: **{crop_name}** | बुवाई तिथि: {r['Sowing_Date']} (बुवाई से दिन: **{das} DAS**)")
         w1, w2, w3, w4 = st.columns(4)
@@ -213,25 +210,29 @@ if app_mode == "📱 किसान मोबाइल ऐप (Farmer Easy Mode
         w3.metric("🌧️ 3-दिन बारिश", f"{wx['rain_3d']} mm")
         w4.metric("💨 हवा", f"{wx['wind']} km/h")
 
+        if wx['rain_3d'] >= 5:
+            st.info(f"🌧️ **मौसम अलर्ट:** अगले 3 दिन **{wx['rain_3d']} mm** बारिश की संभावना है। सिंचाई रोकें!")
+
         st.markdown(f"""
-        <div style="background-color:#f1f8e9; padding:20px; border-radius:12px; border:3px solid #2e7d32; margin-top:10px;">
-            <h3 style="color:#1b5e20; margin-top:0;">🌱 फसल विवरण एवं आर्थिक पासबुक ({crop_name})</h3>
-            <p><b>प्लॉट ID:</b> {r['SubPlotID']} | <b>खतौनी:</b> {r['KhatauniNo']} | <b>क्षेत्रफल:</b> {r['SubPlotKB']} कच्चा बीघा</p>
-            <p><b>मिट्टी pH:</b> {r['pH']} | <b>बीज किस्म:</b> {r['Seed_Variety']}</p>
+        <div style="background-color:#f1f8e9; padding:20px; border-radius:12px; border:3px solid #2e7d32; margin-top:10px; color:#111111;">
+            <h3 style="color:#1b5e20; margin-top:0;">🌾 किसान सलाह और आर्थिक पासबुक ({farmer_name})</h3>
+            <p style="font-size:16px; color:#111111;"><b>गाँव / खसरा:</b> {r['Village']} (Khatauni: {r['KhatauniNo']}) | <b>प्लॉट:</b> {r['SubPlotID']} ({r['Elevation']}) | <b>क्षेत्रफल:</b> {r['SubPlotKB']} कच्चा बीघा</p>
+            <p style="font-size:15px; color:#111111;"><b>वर्तमान फसल:</b> {crop_name} ({r['Seed_Variety']}) | <b>मिट्टी pH:</b> {r['pH']} | <b>बोरॉन:</b> {r.get('B', 0.5)} ppm</p>
             <hr style="border:1px solid #81c784;">
-            <h4>📅 संस्तुत खाद मात्रा:</h4>
-            <ul>
-                <li>यूरिया: <b>{r['Rec_Urea_kg']} kg</b></li>
-                <li>SSP: <b>{r['Rec_SSP_kg']} kg</b> | MOP (पोटाश): <b>{r['Rec_MOP_kg']} kg</b> | जिप्सम: <b>{r['Rec_Gypsum_kg']} kg</b></li>
-            </ul>
-            <p><b>💰 अनुमानित कुल लागत:</b> ₹{r['Total_CoP_INR']:,.0f} | <b>अपेक्षित पैदावार:</b> {r['Pred_Total_Yield_Q']} क्विंटल | <b>शुद्ध लाभ ({crop_name}):</b> ₹{r['Net_Profit_Smart_INR']:,.0f}</p>
+            <h4 style="color:#b71c1c; margin-bottom:6px;">📅 इस खेत के लिए महत्वपूर्ण कृषि सलाह:</h4>
+            <ol style="font-size:15.5px; line-height:1.6; color:#111111;">
+                <li><b>उर्वरक संस्तुति ({r['SubPlotKB']} KB हेतु):</b> यूरिया: <b>{r['Rec_Urea_kg']} kg</b> | SSP: <b>{r['Rec_SSP_kg']} kg</b> | पोटाश: <b>{r['Rec_MOP_kg']} kg</b> | जिप्सम: <b>{r['Rec_Gypsum_kg']} kg</b></li>
+                <li><b>सिंचाई प्रबंधन:</b> फसल की अवस्था अनुसार हल्की सिंचाई करें। जलभराव से बचाव करें।</li>
+                <li><b>रोग व कीट नियंत्रण:</b> मौसम में नमी अधिक होने पर माहू या फंगस की नियमित निगरानी करें और संस्तुत जैविक/रासायनिक सुरक्षा अपनाएं।</li>
+            </ol>
+            <hr style="border:1px solid #81c784;">
+            <p style="font-size:16px; color:#1b5e20;"><b>💰 कुल लागत:</b> ₹{r['Total_CoP_INR']:,.0f} | <b>अपेक्षित पैदावार:</b> {r['Pred_Total_Yield_Q']} क्विंटल | <b>शुद्ध लाभ:</b> ₹{r['Net_Profit_Smart_INR']:,.0f}</p>
         </div>
         """, unsafe_allow_html=True)
 
         st.markdown("---")
-        st.markdown(f"### 🗓️ फसल की आगामी और पूर्ण समय-सारणी (Crop Schedule for {crop_name})")
+        st.markdown(f"### 🗓️ फसल की चरण-दर-चरण समय-सारणी (Crop Growth Schedule for {crop_name})")
         
-        # Match crop name to schedule dictionary
         matched_sched_key = next((k for k in CROP_SCHEDULES.keys() if k.split()[0] in crop_name), "Mustard (सरसों)")
         sched_list = CROP_SCHEDULES[matched_sched_key]
 
@@ -245,14 +246,114 @@ if app_mode == "📱 किसान मोबाइल ऐप (Farmer Easy Mode
             """, unsafe_allow_html=True)
 
     with m_tab2:
-        with st.form("log_form", clear_on_submit=True):
-            f_cat = st.selectbox("खर्च का प्रकार", ["Irrigation (सिंचाई)", "Fertiliser (खाद)", "Weedicide/Spray (स्प्रे)"])
-            f_amt = st.number_input("राशि ₹", min_value=0.0, value=500.0)
-            f_notes = st.text_input("टिप्पणी")
-            if st.form_submit_button("💾 सेव करें"):
-                new_l = pd.DataFrame([{"Timestamp": datetime.now().strftime("%Y-%m-%d %H:%M"), "FarmerName": farmer_name, "Mobile": logged_val, "Village": r['Village'], "SubPlotID": sel_sub, "Present_Crop": r['Present_Crop'], "Seed_Variety": r['Seed_Variety'], "DAS": 30, "Growth_Stage": "Vegetative", "Category": f_cat, "Input_Qty": "1", "Amount_INR": f_amt, "CropCondition": "Healthy", "Notes": f_notes}])
+        st.subheader("📸 फसल की स्थिति, पौधों की गिनती (Stand Count) व खर्च दर्ज करें")
+        st.caption("यहाँ आप अंकुरण के बाद पौधों की गिनती (Plant Count/m²), फसल की स्थिति, फोटो और सिंचाई/खाद के खर्च दर्ज कर सकते हैं।")
+
+        log_plot = st.selectbox("📍 किस खेत/प्लॉट का डेटा दर्ज करना है?", farmer_df['SubPlotID'].unique(), key="log_plot_select")
+        plot_row = farmer_df[farmer_df['SubPlotID'] == log_plot].iloc[0]
+
+        try:
+            p_sowing = datetime.strptime(str(plot_row['Sowing_Date']).split()[0], "%Y-%m-%d")
+            plot_das = (datetime.now() - p_sowing).days
+        except Exception:
+            plot_das = 12
+
+        with st.form("comprehensive_field_log_form", clear_on_submit=False):
+            col_l1, col_l2 = st.columns(2)
+
+            with col_l1:
+                log_type = st.radio(
+                    "📝 क्या दर्ज करना चाहते हैं? (Select Entry Type):",
+                    ["🌱 पौधों की गिनती (Stand Count per m²)", "💰 सिंचाई व कृषि आदान खर्च (Expense)", "📸 दोनों / अन्य गतिविधि (Both/General)"],
+                    horizontal=True
+                )
+
+                st.markdown("---")
+                st.markdown("##### 🌱 अंकुरण व पौधों की गिनती (Stand Count Audit)")
+                stand_count = st.number_input(
+                    "1x1 मीटर घेरे में पौधों की संख्या (Plants / m²):",
+                    min_value=0,
+                    max_value=250,
+                    value=52 if "गिनती" in log_type or "दोनों" in log_type else 0,
+                    step=1,
+                    help="खेत में 1x1 मीटर का फ्रेम डालकर गिने गए पौधों की औसत संख्या दर्ज करें।"
+                )
+
+                crop_condition = st.selectbox(
+                    "🌿 फसल की सामान्य स्थिति (Crop Condition):",
+                    [
+                        "Healthy (स्वस्थ अंकुरण)",
+                        "Under-Populated / Patchy (बिरल / कहीं-कहीं खाली)",
+                        "Over-Crowded (बहुत घना - छटनी योग्य)",
+                        "Leaf Yellowing (पत्ते पीले पड़ना)",
+                        "Pest / Aphids (कीट / माहू का प्रकोप)",
+                        "Moisture Stress (नमी की कमी / मुरझाना)"
+                    ]
+                )
+
+            with col_l2:
+                st.markdown("##### 💰 खर्च व कृषि कार्य (यदि कोई हो)")
+                f_cat = st.selectbox(
+                    "गतिविधि / खर्च का प्रकार (Category):",
+                    [
+                        "Stand Count Audit (अंकुरण व पौधों की गिनती)",
+                        "Irrigation (सिंचाई)",
+                        "Fertiliser (खाद/यूरिया)",
+                        "Thinning / Weeding (छटनी व निराई)",
+                        "Weedicide/Pesticide Spray (दवा स्प्रे)",
+                        "Harvesting (कटाई)",
+                        "Other (अन्य)"
+                    ]
+                )
+
+                f_amt = st.number_input(
+                    "खर्च की राशि ₹ (Amount Incurred - यदि कोई खर्च न हो तो 0 रखें):",
+                    min_value=0.0,
+                    value=0.0 if "गिनती" in log_type else 500.0,
+                    step=50.0
+                )
+
+                f_notes = st.text_input(
+                    "📝 अतिरिक्त टिप्पणी (Notes):",
+                    placeholder="उदा: 3 स्थानों पर औसत 54 पौधे/m² मिले, अंकुरण एक समान है।"
+                )
+
+                camera_photo = st.camera_input("📷 फोन कैमरे से खेत/पौधों की फोटो लें (Optional)")
+
+            submit_log = st.form_submit_button("💾 डेटा सुरक्षित करें (Save Event)")
+
+            if submit_log:
+                stand_feedback = ""
+                if stand_count > 0:
+                    if stand_count < 30:
+                        stand_feedback = f"⚠️ **बिरल अंकुरण ({stand_count} पौधे/m²):** पौधों की संख्या कम है। जहाँ खाली पैच हैं वहाँ तुरंत बीज रोपाई (Gap Filling) करें।"
+                    elif 40 <= stand_count <= 65:
+                        stand_feedback = f"🎯 **सर्वोत्तम जमाव ({stand_count} पौधे/m²):** पौधों की सघनता आदर्श है। कोई छटनी की आवश्यकता नहीं है।"
+                    elif stand_count > 70:
+                        stand_feedback = f"🌿 **सघन अंकुरण ({stand_count} पौधे/m²):** फसल काफी घनी है। 20-25 दिन की अवस्था पर छटनी (Thinning) करके 10-12 सेमी की दूरी बनाएं।"
+
+                combined_notes = f"Stand: {stand_count} plants/m2. {f_notes}".strip()
+
+                new_l = pd.DataFrame([{
+                    "Timestamp": datetime.now().strftime("%Y-%m-%d %H:%M"),
+                    "FarmerName": farmer_name,
+                    "Mobile": logged_val,
+                    "Village": plot_row['Village'],
+                    "SubPlotID": log_plot,
+                    "Present_Crop": plot_row['Present_Crop'],
+                    "Seed_Variety": plot_row['Seed_Variety'],
+                    "DAS": plot_das,
+                    "Growth_Stage": "10-DAS Emergence" if stand_count > 0 else "Vegetative",
+                    "Category": f_cat,
+                    "Input_Qty": f"{stand_count} plants/m2" if stand_count > 0 else "1",
+                    "Amount_INR": f_amt,
+                    "CropCondition": crop_condition,
+                    "Notes": combined_notes
+                }])
                 pd.concat([logs_df, new_l], ignore_index=True).to_csv(LOGS_CSV, index=False, encoding='utf-8-sig')
-                st.success("✅ खर्च दर्ज हो गया!")
+                st.success(f"✅ खेत **{log_plot}** का डेटा सफलतापूर्वक दर्ज हो गया!")
+                if stand_feedback:
+                    st.info(stand_feedback)
 
 else:
     st.title("🌾 Agri DSS: Admin & Research Dashboard")
